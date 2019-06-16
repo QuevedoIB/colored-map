@@ -22,8 +22,6 @@ class Map extends Component {
 
   componentDidMount = () => {
     adjustZoomButtons();
-    window.postMessage("Hola");
-
   }
 
   render() {

@@ -1,5 +1,6 @@
 export const GET_VISITED_COUNTRIES = idUser => {
   return (dispatch) => {
+    alert(`Llamada api a ${idUser}`)
     //api call
     return dispatch({
       type: "GET_VISITED_COUNTRIES", payload: {
