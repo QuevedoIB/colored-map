@@ -1,6 +1,6 @@
 {
   "name": "map-vector",
-  "homepage":"https://quevedoib.github.io/colored-map/"
+  "homepage":"https://quevedoib.github.io/colored-map/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
