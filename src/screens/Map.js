@@ -31,7 +31,7 @@ class Map extends Component {
         backgroundColor="#88b4fc"
         containerStyle={{
           width: window.innerWidth,
-          height: "300px"
+          height: window.innerHeight
         }}
         containerClassName="map"
         regionStyle={{
