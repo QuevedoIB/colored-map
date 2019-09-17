@@ -12,8 +12,9 @@ import { GET_VISITED_COUNTRIES } from '../redux/actions';
 window.addEventListener("message", event => {
 
   if (typeof event.data === "string") {
-    alert(event.data)
-    store.dispatch(GET_VISITED_COUNTRIES(event.data))
+    const data = JSON.parse(event.data);
+    console.log(data)
+    store.dispatch(GET_VISITED_COUNTRIES(data.countries))
   }
 
 })
