@@ -1,1 +1,2 @@
 export const GET_VISITED_COUNTRIES = "GET_VISITED_COUNTRIES";
+export const SET_SIZES = "SET_SIZES";
