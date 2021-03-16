@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { VectorMap } from "react-jvectormap";
 import { connect } from "react-redux";
-import "./style.css";
+//import "./style.css";
 
 //import * as actions from "../redux/actions";
 import { adjustZoomButtons } from "../helpers/adjustZoomButtons";
